@@ -20,13 +20,13 @@ The data model follows a modular design and can be separated in the following ke
 
 A detailed description of the schema, including entity-relationship diagrams and table group visualizations, is provided in the accompanying PDF documentation. The SQL script (diversea_schema.sql) can be executed to generate the complete database structure across all case studies.
 
-![data model](images/data_model_full.jpg "Data model")
+![data model](figures/data_model_full.jpg "Data model")
 
 ## Group dataset
 
 This group serves as the entry point for all data in the schema. The central dataset table links every record to a specific location, time range and data gathering type. It is supported by organization and dataset_categories to ensure clear ownership and classification across the multi-partner project.
 
-![data model](images/data_model_group_dataset.png "Group dataset")
+![data model](figures/data_model_group_dataset.png "Group dataset")
 
 ## Group biotic
 
@@ -40,7 +40,7 @@ This group captures biodiversity at multiple scales:
 
 - Indices: Tables like biological_pollution and macrofauna_diversity_index store computed ecological metrics.
 
-![data model](images/data_model_group_biotic.png "Group biotic")
+![data model](figures/data_model_group_biotic.png "Group biotic")
 
 ## Group abiotic
 
@@ -52,7 +52,7 @@ This group contains environmental variables through structured measurement table
 
 - Dynamic Data: Includes water_temperature_logs, marine_litter counts and ground_surveys_habitat.
 
-![data model](images/data_model_group_abiotic.png "Group abiotic")
+![data model](figures/data_model_group_abiotic.png "Group abiotic")
 
 ## Group files
 
@@ -64,7 +64,7 @@ To handle high-volume raw data, this group stores metadata and file paths for ex
 
 - Visual Media: Separate tables for images_aerial, images_underwater, images_phytoplankton and video_ground_survey.
 
-![data model](images/data_model_group_files.png "Group files")
+![data model](figures/data_model_group_files.png "Group files")
 
 ## Group reference
 
@@ -76,7 +76,7 @@ This group maintains data integrity by providing standardized lookup values, ens
 
 - Taxonomy: Provides the foundational species lists to prevent naming discrepancies in biological records.
 
-![data model](images/data_model_group_reference.png "Group reference")
+![data model](figures/data_model_group_reference.png "Group reference")
 
 ## Group standards
 
@@ -86,5 +86,5 @@ This specialized module is dedicated to aligning DiverSea data with internationa
 
 - Dataset Integration: The standards_datasets mapping table links these global standards directly to specific datasets, ensuring that all entries remain compliant and interoperable for external sharing.
 
-![data model](images/data_model_group_standards.png "Group standards")
+![data model](figures/data_model_group_standards.png "Group standards")
 
