@@ -6,7 +6,7 @@ This repository contains the public catalogue of the DiverSea project, providing
 
 **DiverSea** (Integrated Observation, Mapping, Monitoring and Prediction for Functional Biodiversity of Coastal Seas) is a Horizon Europe research project coordinated by the Norwegian University of Science and Technology. The project aims to advance marine biodiversity monitoring through the integration of molecular techniques, environmental observations and  data-driven analytical approaches.
 
-The catalogue serves as a **central access point to the technical artefacts of the DiverSea Data Space**, supporting transparency, reproducibility and  interoperability in accordance with FAIR principles.
+The catalogue serves as a **central access point to the technical artefacts of the DiverSea dataspace**, supporting transparency, reproducibility and  interoperability in accordance with FAIR principles.
 
 ---
 
@@ -38,7 +38,7 @@ It supports:
 
 ### Dataspace
 
-This is the **core component of the repository**, representing the DiverSea Data Space.
+This is the **core component of the repository**, representing the DiverSea dataspace.
 
 It integrates datasets, models and  services into a unified data infrastructure.
 
@@ -90,7 +90,7 @@ It includes:
 
 #### Data Services
 
-<!-- This section describes the services developed to access, explore and  process data within the DiverSea Data Space.
+<!-- This section describes the services developed to access, explore and  process data within the DiverSea dataspace.
 
 These include:
 
@@ -112,7 +112,7 @@ The database includes the SQL script for creating the unified data model of the 
 
 ### Documents
 
-<!-- This section contains project-related documentation supporting the data space, including:
+<!-- This section contains project-related documentation supporting the dataspace, including:
 
 * Deliverables
 * Technical reports
@@ -136,7 +136,7 @@ It may include:
 
 ### Knowledge Base
 
-This section contains the **ontology of the DiverSea Data Space**, implemented in RDF/OWL format.
+This section contains the **ontology of the DiverSea dataspace**, implemented in RDF/OWL format.
 
 It provides:
 
@@ -195,9 +195,9 @@ It supports engagement, dissemination and  collaboration activities. -->
 
 ---
 
-## Role in DiverSea Data Space
+## Role in DiverSea dataspace
 
-The catalogue serves as the **public interface of the DiverSea Data Space**, providing access to its key artefacts:
+The catalogue serves as the **public interface of the DiverSea dataspace**, providing access to its key artefacts:
 
 * Metadata of datasets
 * Unified data model
